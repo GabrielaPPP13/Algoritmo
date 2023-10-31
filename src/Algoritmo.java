@@ -9,7 +9,7 @@ public class Algoritmo {
 
         System.out.println("Ingrese la cantidad de cadenas a comparar:");
         int cantidadCadenas = scanner.nextInt();
-        scanner.nextLine(); // Consumir el salto de línea
+        scanner.nextLine();
 
         ArrayList<String> cadenas = new ArrayList<>();
 
@@ -42,7 +42,7 @@ public class Algoritmo {
 
         // Repetir el proceso durante 30 fases
         for (int fase = 0; fase < 30; fase++) {
-            System.out.println("Fase " + (fase + 1));
+            System.out.println("Fase " + (fase + 1 ));
             System.out.println("Los 5 mejores resultados antes del proceso adicional (Fase " + (fase + 1) + "): ");
 
             // Seleccionar y almacenar los 5 mejores resultados de la fase actual
@@ -79,8 +79,6 @@ public class Algoritmo {
             resultados.subList(0, 5).clear();
             resultados.addAll(resultadosActuales);
         }
-
-        // Puedes continuar con la siguiente fase del algoritmo utilizando los resultados en "resultados".
 
         scanner.close();
     }
