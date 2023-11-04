@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-//import java.util.Collections;
 
 public class Algoritmo {
     public static void main(String[] args) {
@@ -40,7 +39,7 @@ public class Algoritmo {
             resultados.add(resultado);
         }
 
-        // Repetir el proceso durante 30 fases
+        // Voy a repetir el proceso durante 30 fases (Puedo modificar el número de fases en el ciclo for)
         for (int fase = 0; fase < 30; fase++) {
             System.out.println("Fase " + (fase + 1 ));
             System.out.println("Los 5 mejores resultados antes del proceso adicional (Fase " + (fase + 1) + "): ");
